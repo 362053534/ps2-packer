@@ -2,6 +2,12 @@
 
 ![CI](https://github.com/ps2dev/ps2-packer/workflows/CI/badge.svg)
 
+## **ATTENTION**
+
+If you are confused on how to start developing for PS2, see the
+[getting started](https://ps2dev.github.io/#getting-started) section on
+the ps2dev main page.  
+
 ## Overview
 
 Just like [UPX](http://upx.sourceforge.net/ "UPX"), this tool is designed to help you
@@ -44,10 +50,6 @@ and help people about that software, I to NOT give them the autorization to
 mirror these packages on their website, only to link to the homepage of this
 project, that is, http://www.nobis-crew.org/ps2-packer nor are they authorized
 to support their users on their forums on questions about that software.
-
-If you want to reach me, and find support about ps2-packer, either ask me
-directly, by mail, or by reaching me on IRC (channel #ps2dev on EfNet), or ask
-your questions on ps2dev.org's forums and ps2-scene's forums.
 
 I actually know they won't give a shit about these restrictions, but I felt
 like proceeding so. If you want real and *legit* ps2 development, go on the
@@ -198,8 +200,10 @@ However, you can find the latests CVS changes into ps2dev's CVS:
 http://cvs.ps2dev.org/ps2-packer/
 ```
 
-For more informations about it, feel free to go on ps2dev's website located
-at http://ps2dev.org/ and be sure to drop by #ps2dev in EfNet.
+## Community
+
+Links for discussion and chat are available
+[here](https://ps2dev.github.io/#community).  
 
 ## Thanks and greetings
 
