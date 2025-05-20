@@ -2832,7 +2832,7 @@ SRes LzmaEnc_CodeOneMemBlock(CLzmaEncHandle pp, BoolInt reInit,
   CLzmaEnc *p = (CLzmaEnc *)pp;
   UInt64 nowPos64;
   SRes res;
-  CLzmaEnc_SeqOutStreamBuf outStream;
+  static CLzmaEnc_SeqOutStreamBuf outStream;
 
   outStream.vt.Write = SeqOutStreamBuf_Write;
   outStream.data = dest;

@@ -1,6 +1,6 @@
 include $(PS2SDK)/Defs.make
 
-EE_CPPFLAGS = -G0 -I . -D_EE -O3 -Wall -DNO_GZIP -DBUILDFIXED -DNO_vsnprintf
+EE_CPPFLAGS = -G0 -I . -D_EE -O3 -Wall -Werror -DNO_GZIP -DBUILDFIXED -DNO_vsnprintf
 
 OBJS = adler32.o zutil.o inflate.o inffast.o inftrees.o
 
