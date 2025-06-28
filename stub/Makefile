@@ -2,7 +2,7 @@ SUBMAKE = $(MAKE) -C
 
 include $(PS2SDK)/Defs.make
 
-EE_CPPFLAGS = -G0 -I $(PS2SDK)/ee/include -I $(PS2SDK)/common/include -I . -I zlib -I lzo -I lz4 -I ../common/lzma -D_EE -O3 -Wall -Werror -DDO_EXECPS2
+EE_CPPFLAGS = -G0 -I $(PS2SDK)/ee/include -I $(PS2SDK)/common/include -I . -I zlib -I lzo -I lz4 -I ../common/lzma -D_EE -O3 -Wall -DDO_EXECPS2
 EE_LDFLAGS = -T ./linkfile -L $(PS2SDK)/ee/lib -lc_nano -lkernel
 
 TARGETS = \

@@ -4,7 +4,7 @@ EE_OBJS_DIR = obj/
 EE_LIB_DIR =
 SRC_DIR = ../../common/lzma/
 
-EE_CPPFLAGS = -G0 -I $(SRC_DIR) -D_EE -Os -Wall -Werror -D_LZMA_SIZE_OPT
+EE_CPPFLAGS = -G0 -I $(SRC_DIR) -D_EE -Os -Wall -D_LZMA_SIZE_OPT
 
 EE_OBJS = Alloc.o LzFind.o LzmaDec.o LzmaEnc.o
 

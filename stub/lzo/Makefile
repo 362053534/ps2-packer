@@ -1,6 +1,6 @@
 include $(PS2SDK)/Defs.make
 
-EE_CPPFLAGS = -G0 -I . -D_EE -O3 -Wall -Werror -DLSB_FIRST -DALIGN_DWORD
+EE_CPPFLAGS = -G0 -I . -D_EE -O3 -Wall -DLSB_FIRST -DALIGN_DWORD
 
 OBJS = minilzo.o
 
