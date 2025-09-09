@@ -12,7 +12,7 @@ RUN cd /src && \
     make -j $(getconf _NPROCESSORS_ONLN) install
 
 # Second stage of Dockerfile
-FROM alpine:latest
+FROM alpine:3.21.0
 
 ENV PS2DEV /usr/local/ps2dev
 ENV PS2SDK $PS2DEV/ps2sdk
